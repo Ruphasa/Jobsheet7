@@ -17,8 +17,7 @@ public class DoWhileCuti24 {
                     jatahCuti-=jumlahHari;
                     System.out.println("Sisa jatah cuti: "+ jatahCuti);
                 } else {
-                    System.out.println("Sisa jatah cuti Anda tidak mencukupi");
-                    break;
+                    System.out.println("Sisa jatah cuti Anda hanya "+jatahCuti);
                 }
             }
         } while (jatahCuti>0);
