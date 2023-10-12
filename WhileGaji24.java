@@ -23,7 +23,8 @@ public class WhileGaji24 {
                 gajiLembur = jumlahJamLembur*75000;
             }else{
                 System.out.println("jabatan invalid");
-                i = i- 1;
+                i--;
+                continue;
             }
             totalGajiLembur += gajiLembur;
         }
