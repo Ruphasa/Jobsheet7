@@ -17,7 +17,8 @@ public class DoWhileCuti24 {
                     jatahCuti-=jumlahHari;
                     System.out.println("Sisa jatah cuti: "+ jatahCuti);
                 } else {
-                    System.out.println("Sisa jatah cuti Anda hanya "+jatahCuti);                }
+                    System.out.println("Sisa jatah cuti Anda hanya "+jatahCuti);
+                }
             }else{
                 System.out.println("baiklah");
                 break;
